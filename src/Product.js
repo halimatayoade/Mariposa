@@ -4,7 +4,7 @@ function Product(props) {
   
   return (
     <div className="product">
-      <h1>{props.product.name}</h1>
+      <ol><h1>{props.product.name}</h1></ol>
       {
         props.product.imageURL.map((char) => (
           <img src={char} alt={props.product.name} />
