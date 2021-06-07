@@ -1,0 +1,506 @@
+{
+  "products": [
+    {
+      "name": "Hyaluronic Acid 2% + B5",
+      "id": 0,
+      "type": "serum",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw75298ca0/Images/products/The%20Ordinary/rdn-hyaluronic-acid-2pct-b5-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw1054cbb6/Images/products/The%20Ordinary/Product%20Swatches/rdn-hyaluronic-acid-2pct-b5-swatch.jpg"],
+      "brand":"The Ordinary",
+      "rating": 4.2,
+      "tags": ["dry skin"],
+      "price": 6.80,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description": "Hyaluronic acid, also known as hyaluronan, is a clear, gooey substance that is naturally produced by your body. The largest amounts of it are found in your skin, connective tissue and eyes. Its main function is to retain water to keep your tissues well lubricated and moist",
+      "ingredients": "Aqua (Water), Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol"
+
+    },
+    {
+      "name": "Foaming Facial Cleanser",
+      "id": 1,
+      "type":"cleanser",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/51%2ByNMwODML._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61ZMnD5sUmL._SL1000_.jpg"],
+      "brand":"CeraVe",
+      "rating": 4.7,
+      "tags": ["dry skin", "oil skin", "normal skin"],
+      "price": 13.48,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : true,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Foaming Facial Cleanser was developed with dermatologists to deeply cleanse, remove excess oil and refresh the skin without over-stripping it or leaving it feeling tight and dry. Featuring three essential ceramides, hyaluronic acid and niacinamide, this gel-based foaming cleanser is an effective yet non-irritating way to cleanse and care for your normal to oily skin.",
+      "ingredients": "Aqua / Water / Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum."
+    },
+    {
+      "name": "Niacinamide 10% + Zinc 1%",
+      "id": 2,
+      "type":"serum",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa53d85c0/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3bf5ab23/Images/products/The%20Ordinary/Product%20Swatches/rdn-niacinamide-10pct-zinc-1pct-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.5,
+      "tags": ["dry skin", "oil skin", "normal skin"],
+      "price": 5.90,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description": "Niacinamide (Vitamin B3) is indicated to reduce the appearance of skin blemishes and congestion. ... This formulation can be used alongside acne treatments if desired for added visible skin benefits. Independent studies suggest Niacinamide is also an effective ingredient for brightening skin tone.",
+      "ingredients": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin."
+    },
+    {
+      "name": "Glycolic Acid 7% Toning Solution",
+      "id": 3,
+      "type":"toner",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwf3b2660a/Images/products/The%20Ordinary/rdn-glycolic-acid-7pct-toning-solution-240ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwffabc0d1/Images/products/The%20Ordinary/Product%20Swatches/rdn-glycolic-acid-7pct-toning-solution-240ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.5,
+      "tags": ["dry skin", "oil skin", "normal skin"],
+      "price": 8.70,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description": "Glycolic Acid is an alpha hydroxy acid that exfoliates the skin. This 7% toning solution offers mild exfoliation for improved skin radiance and visible clarity. The formula also improves the appearance of skin texture with continued use.",
+      "ingredients": "Aqua (Water), Glycolic Acid, Rosa damascena flower water, Centaurea cyanus flower water, Aloe Barbadensis Leaf Water, Propanediol, Glycerin, Triethanolamine, Aminomethyl Propanol, Panax Ginseng Root Extract, Tasmannia Lanceolata Fruit/Leaf Extract, Aspartic Acid, Alanine, Glycine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glutamic Acid, Arginine, PCA, Sodium PCA, Sodium Lactate, Fructose, Glucose, Sucrose, Urea, Hexyl Nicotinate, Dextrin, Citric Acid, Polysorbate 20, Gellan Gum, Trisodium Ethylenediamine Disuccinate, Sodium Chloride, Hexylene Glycol, Potassium Sorbate, Sodium Benzoate, 1,2-Hexanediol, Caprylyl Glycol."
+    },
+    {
+      "name": "Hydrating Facial Cleanser",
+      "id": 4,
+      "type": "cleanser",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/51DbQev1thL._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61Ui1cuZmrL._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.6,
+      "tags": ["dry skin", "oil skin", "normal skin"],
+      "price": 13.56,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Hydrating Cleanser was designed to cleanse and refresh the skin without over-stripping it or leaving it feeling tight and dry. Featuring three essential ceramides to restore the skin's barrier, hyaluronic acid to hydrate the skin, and MVE Delivery Technology to supply the skin with a steady stream of nourishment, this non-comedogenic face wash is an effective yet non-irritating way to start off any skincare regimen. Best for normal to dry skin.",
+      "ingredients": "Aqua / Water / Eau, Glycerin, Cetearyl Alcohol, Peg-40 Stearate, Stearyl Alcohol, Potassium Phosphate, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Glyceryl Stearate, Behentrimonium Methosulfate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Disodium Edta, Dipotassium Phosphate, Tocopherol, Phytosphingosine, Xanthan Gum, Cetyl Alcohol, Polysorbate 20, Ethylhexylglycerin."
+    },
+    {
+      "name": "Natural Moisturizing Factors + HA",
+      "id": 5,
+      "type": "moisturizers",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2ff47ee4/Images/products/The%20Ordinary/rdn-natural-moisturizing-factors-ha-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw36bc0d1a/Images/products/The%20Ordinary/Product%20Swatches/rdn-natural-moisturizing-factors-ha-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.4,
+      "tags": ["dry skin"],
+      "price": 5.80,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "This formula offers non-greasy hydration that acts as a direct topical supplement of impaired NMF components. It contains 11 amino acids, phospholipids, alpha/beta/gamma fatty acids, triglycerides, sterols and sterol esters, glycerin, ceramide precursors, urea, saccharides, sodium PCA and hyaluronic acid. It offers immediate hydration and lasting results with continued use.",
+      "ingredients": "Aqua (Water), Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Triethanolamine, Sodium Hydroxide, Phenoxyethanol, Chlorphenesin."
+    },
+    {
+      "name": "Caffeine Solution 5% + EGCG",
+      "id": 6,
+      "type": "serum",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2e3374bb/Images/products/The%20Ordinary/rdn-caffeine-solution-5pct-egcg-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw3843c268/Images/products/The%20Ordinary/Product%20Swatches/rdn-caffeine-solution-5pct-egcg-30ml-swatch.jpg?sw=800&sh=800&sm=fit"],
+      "brand": "The Ordinary",
+      "rating": 3.9,
+      "tags": ["eye", "dark circles", "puffiness"],
+      "price": 6.70,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "This light-textured formula contains an extremely high 5% concentration of caffeine, supplemented with highly-purified Epigallocatechin Gallatyl Glucoside (EGCG). Independent studies have shown that topical use of each of caffeine and EGCG can help reduce looks of puffiness and of dark circles in the eye contour. Additional studies have shown that caffeine can also reduce the appearance of cellulite.",
+      "ingredients": "Aqua (Water), Caffeine, Maltodextrin, Glycerin, Propanediol, Epigallocatechin Gallatyl Glucoside, Gallyl Glucoside, Hyaluronic Acid, Oxidized Glutathione, Melanin, Glycine Soja (Soybean) Seed Extract, Pentylene Glycol, Hydroxyethylcellulose, Polyacrylate Crosspolymer-6, Xanthan gum, Lactic Acid, Dehydroacetic Acid, Trisodium Ethylenediamine Disuccinate, Propyl Gallate, Dimethyl Isosorbide, Benzyl Alcohol, 1,2-Hexanediol, Ethylhexylglycerin, Phenoxyethanol, Caprylyl Glycol."
+    },
+    {
+      "name": "Lactic Acid 10% + HA",
+      "id": 7,
+      "type": "exfoliator",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwc9a2ff3e/Images/products/The%20Ordinary/rdn-lactic-acid-10pct-ha-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw947394e1/Images/products/The%20Ordinary/Product%20Swatches/rdn-lactic-acid-10pct-ha-30ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.6,
+      "tags": ["inflammation", "sensitivity", "acne"],
+      "price": 6.70,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "Lactic Acid is an alpha hydroxy acid that exfoliates the skin. This 10% formulation offers mild exfoliation and is supported with a purified Tasmanian pepperberry known to reduce signs of inflammation and sensitivity that is often associated with exfoliation.",
+      "ingredients": "Aqua (Water), Lactic Acid, Glycerin, Pentylene Glycol, Propanediol, Sodium Hydroxide, Sodium Hyaluronate Crosspolymer, Tasmannia Lanceolata Fruit/Leaf Extract, Acacia Senegal Gum, Xanthan Gum, Isoceteth-20, Trisodium Ethylenediamine Disuccinate, Ethylhexylglycerin, 1,2-Hexanediol, Caprylyl Glycol."
+    }, 
+    {
+      "name": "Amino Acids + B5",
+      "id": 8,
+      "type": "serum",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwfce76af7/Images/products/The%20Ordinary/rdn-amino-acids-b5-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3e4639ef/Images/products/The%20Ordinary/Product%20Swatches/rdn-amino-acids-b5-30ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.5,
+      "tags": ["hydration"],
+      "price": 6.80,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "Amino Acids + B5 offers non-greasy hydration support for the maintenance of healthy, functioning skin. It may cause a temporary tingling sensation upon application. If desired, the formula can be mixed with other serums or creams upon application to reduce its strength.",
+      "ingredients": "Aqua (Water), Propanediol, Betaine, Sodium PCA, Panthenol, Sodium Lactate, Arginine, PCA, Aspartic Acid, Glycine, Alanine, Serine, Threonine, Valine, Proline, Isoleucine, Lysine HCl, Histidine, Phenylalanine, Glutamic Acid, Citric Acid, Dimethyl Isosorbide, Polysorbate 20, Trisodium Ethylenediamine Disuccinate, 1,2-Hexanediol, Caprylyl Glycol."
+    },
+    {
+      "name": "'B' Oil",
+      "id": 9,
+      "type": "oil",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw7141df73/Images/products/The%20Ordinary/rdn-b-oil-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwaa7a4d3b/Images/products/The%20Ordinary/Product%20Swatches/rdn-b-oil-30ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.3,
+      "tags": ["hydration"],
+      "price": 9.20,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "“B” Oil solubilizes a purified form of micro-algae in a blend of squalane and oils of marula, argan, baobab, pataua, brazil nut, inca inchi, rosehip and borage to support healthy skin defense, to enhance radiance, to quench free radicals and to help balance pro-irritant mediators.",
+      "ingredients": "Caprylic/Capric Triglyceride, Squalane, Crambe Abyssinica Seed Oil, Bisabolol, Simmondsia Chinensis Seed Oil, Ethylhexyl Stearate, Isochrysis Galbana Extract, Adansonia Digitata Seed Oil, Argania Spinosa Kernel Oil, Borago Officinalis Seed Oil, Rosa Canina Seed Oil, Sclerocarya Birrea Seed Oil, Oenocarpus Bataua Fruit Oil, Plukenetia Volubilis Seed Oil, Bertholletia Excelsa Seed Oil, Solanum Lycopersicum (Tomato) Fruit Extract, Hydroxymethoxyphenyl Decanone, Rosmarinus Officinalis (Rosemary) Leaf Extract, Tocopherol."
+    },
+    {
+      "name": "Buffet",
+      "id": 10,
+      "type": "serum",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw07959458/Images/products/The%20Ordinary/rdn-buffet-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwf1c1702e/Images/products/The%20Ordinary/Product%20Swatches/rdn-buffet-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.4,
+      "tags": ["anti-aging"],
+      "price": 14.80,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "This formula combines a comprehensive array of studied technologies to target multiple signs of aging at once. The technologies are Matrixyl™ 3000 peptide complex (with palmitoyl tetrapeptide-7), Matrixyl™ synthe'6™ peptide complex (with palmitoyl tripeptide-38), SYN™-AKE peptide complex (with dipeptide diaminobutyroyl benzylamide diacetate), ARGIRELOX™ peptide complex (with acetyl hexapeptide-8, pentapeptide-18), Probiotic complex (with lactococcus lactis lysate), in a base of 11 skin-friendly amino acids and multiple hyaluronic acid complexes.",
+      "ingredients": "Aqua (Water), Glycerin, Lactococcus Ferment Lysate, Acetyl Hexapeptide-8, Pentapeptide-18, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-38, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Acetylarginyltryptophyl Diphenylglycine, Sodium Hyaluronate Crosspolymer, Sodium Hyaluronate, Allantoin, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Arginine, Aspartic Acid, Trehalose, Fructose, Glucose, Maltose, Urea, Sodium PCA, PCA, Sodium Lactate, Citric Acid, Hydroxypropyl Cyclodextrin, Sodium Chloride, Sodium Hydroxide, Butylene Glycol, Pentylene Glycol, Acacia Senegal Gum, Xanthan Gum, Carbomer, Polysorbate 20, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Trisodium Ethylenediamine Disuccinate, Ethoxydiglycol, Sodium Benzoate, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin."
+    }, 
+    {
+      "name": "100% Organic Cold-Pressed Borage Seed Oil",
+      "id": 11,
+      "type": "oil",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw723f8eac/Images/products/The%20Ordinary/rdn-100pct-cold-pressed-borage-seed-oil-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwc69731f2/Images/products/The%20Ordinary/Product%20Swatches/rdn-100pct-cold-pressed-borage-seed-oil-30ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 3.8,
+      "tags": ["dry skin", "irritation"],
+      "price": 4.20,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "This formulation contains 100% pure Borage Seed Oil that is sustainably-sourced, organic and cold-pressed This nourishing oil helps soothe dry skin with a high concentration of gamma-linolenic acid (GLA), an important essential fatty acid, as well as linoleic, oleic, stearic and palmitic acids. Borage Seed Oil offers a calming effect, helps maintain healthy skin and is suited particularly well for the dry and/or irritated skin conditions",
+      "ingredients": "Borago Officinalis Seed Oil."
+    },
+    {
+      "name": "100% Organic Cold-Pressed Rose Hip Seed Oil",
+      "id": 12,
+      "type": "oil",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2321b213/Images/products/The%20Ordinary/rdn-100pct-organic-cold-pressed-rose-hip-seed-oil-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwdb7cf6f2/Images/products/The%20Ordinary/Product%20Swatches/rdn-100pct-organic-cold-pressed-rose-hip-seed-oil-30ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.5,
+      "tags": ["healthy skin", "anti-aging"],
+      "price": 9.90,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "Our Rose Hip Seed Oil is completely unrefined and imparts a natural scent partly due to its high omega fatty acid content. This scent is not an indication of rancidity. Rose Hip Seed Oil that does not have a scent is refined and offers reduced benefits.",
+      "ingredients": "Rosa Canina Seed Oil"
+    },
+    {
+      "name": "Salicylic Acid 2% Masque",
+      "id": 13,
+      "type": "face mask",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwf35615e3/Images/products/The%20Ordinary/rdn-salicylic-acid-2pct-masque-50ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw7dc70e83/Images/products/The%20Ordinary/Product%20Swatches/rdn-salicylic-acid-2pct-masque-50ml-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.6,
+      "tags": ["oily skin", "blemishes"],
+      "price": 12.50,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "Salicylic Acid 2% Masque is formulated to target lackluster tone and textural irregularities. The formula, infused with charcoal and clays, aims to enhance the appearance of smoothness and clarity, leaving the skin feeling refreshed. The structure of salicylic acid facilitates its lipophilicity and miscibility with the lipids located on the surface of the skin. It is a suitable ingredient for targeting the removal of dead skin cells on the surface of oily and blemish-prone skin, with the purpose of revealing more radiant skin beneath. ",
+      "ingredients": "Aqua (Water), Kaolin, Squalane, Glycerin, Dimethyl Isosorbide, Silica Cetyl Silylate, Salicylic Acid, Sodium Polyacrylate, Pentylene Glycol, Charcoal Powder, 4-t-Butylcyclohexanol, Sclerotium Gum, Acacia Senegal Gum, Xanthan Gum, Phytic Acid, Polysorbate 20, Trisodium Ethylenediamine Disuccinate, Chlorphenesin, Phenoxyethanol."
+    }, 
+    {
+      "name": "Squalane Cleanser",
+      "id": 14,
+      "type": "cleanser",
+      "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw6f82b69b/Images/products/The%20Ordinary/rdn-squalane-cleanser-50ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw82bf32bc/Images/products/The%20Ordinary/Product%20Swatches/rdn-squalane-cleanser-swatch.jpg"],
+      "brand": "The Ordinary",
+      "rating": 4.5,
+      "tags": ["oily skin", "dry skin", "normal skin"],
+      "price": 7.90,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : true,
+        "oil-free" : true,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": "A gentle cleansing product formulated to target makeup removal whilst leaving the skin feeling smooth and moisturized. The formula incorporates Squalane, alongside other lipophilic esters that are gentle, moisturizing, efficient in dissolving makeup and facial impurities and increasing the spreadability of the product. When rubbed between your palms for approximately 10-30 seconds, the product undergoes an important textural change from a balm-like consistency to a clear oil-like consistency. ",
+      "ingredients": "Squalane, Aqua (Water), Coco-Caprylate/Caprate, Glycerin, Sucrose Stearate, Ethyl Macadamiate, Caprylic/Capric Triglyceride, Sucrose Laurate, Hydrogenated Starch Hydrolysate, Sucrose Dilaurate, Sucrose Trilaurate, Polyacrylate Crosspolymer-6, Isoceteth-20, Sodium Polyacrylate, Tocopherol, Hydroxymethoxyphenyl Decanone, Trisodium Ethylenediamine Disuccinate, Malic Acid, Ethylhexylglycerin, Chlorphenesin."
+    }, 
+    {
+      "name":"Moisturizing Cream",
+      "id": 15,
+      "type": "moisturizer",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/61S7BrCBj7L._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61KdyhaBKeL._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.7,
+      "tags": ["dry skin"],
+      "price": 18.99,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : true,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Moisturizing Cream includes three essential ceramides and hyaluronic acid to effectively hydrate the skin and restore the skin’s protective barrier. Developed with dermatologists and suitable for dry and very dry skin on the face and body, this rich, non-greasy, fast-absorbing moisturizing cream features our patented MVE Delivery Technology to release a steady stream of moisturizing ingredients throughout the day and night. CeraVe Moisturizing Cream with ceramides is fragrance free.",
+      "ingredients": "Aqua / Water / Eau, Glycerin, Cetearyl Alcohol, Caprylic/Capric Triglyceride, Cetyl Alcohol, Ceteareth-20, Petrolatum, Potassium Phosphate, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Dimethicone, Behentrimonium Methosulfate, Sodium Lauroyl Lactylate, Sodium Hyaluronate, Cholesterol, Phenoxyethanol, Disodium Edta, Dipotassium Phosphate, Tocopherol, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin"
+    },
+    {
+      "name":"Renewing SA Cleanser",
+      "id": 16,
+      "type": "cleanser",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/51qee-j%2BGNL._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61lrv8G-duL._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.6,
+      "tags": ["acne"],
+      "price": 18.99,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Renewing SA Cleanser provides gentle, non-irritating exfoliation without harsh microbeads that can scratch your skin. Suitable for use on your face and body as well as acne-prone skin, our salicylic acid cleanser not only exfoliates the skin, but with three essential ceramides, hyaluronic acid and niacinamide, it also helps soften and smooth the skin without disrupting its protective barrier. This formula is also non-comedogenic, fragrance-free and enriched with antioxidant vitamin D.",
+      "ingredients": "Aqua/Water/Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium, Lauroyl Sarcosinate, Niacinamide, Gluconolactone, Peg-150 Pentaerythrityl Tetrastearate, Sodium Methyl Cocoyl Taurate, Zea Mays Oil/Corn Oil, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Calcium Gluconate, Sodium Chloride, Salicylic Acid, Sodium Benzoate, Sodium Lauroyl Lactylate, Cholecalciferol, Cholesterol, Phenoxyethanol, Disodium Edta, Tetrasodium Edta, Hydrolyzed, Hyaluronic Acid, Phytosphingosine, Xanthan Gum, Ethylhexylglycerin"
+    }, 
+    {
+      "name":"Resurfacing Retinol Serum",
+      "id": 17,
+      "type": "serum",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/61UNRfuCDhL._SL1500_.jpg","https://images-na.ssl-images-amazon.com/images/I/61GJ1wOqrTL._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.5,
+      "tags": ["acne"],
+      "price": 17.99,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "Developed with dermatologists, CeraVe Resurfacing Retinol Serum helps smooth your skin's texture by reducing the appearance of post-acne marks, minimizing the look of pores and improving your skin’s surface. Our formula contains encapsulated retinol to help resurface your skin, plus licorice root extract to help brighten your skin’s appearance",
+      "ingredients": "Aqua/Water/Eau, Propanediol, Dimethicone, Cetearyl Ethylhexanoate, Niacinamide, Ammonium Polyacryloyldimethyl Taurate, Dipotassium Glycyrrhizate, Hydrogenated Lecithin, Potassium Phosphate, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Cetearyl Alcohol, Behentrimonium Methosulfate, Dimethiconol, Lecithin, Sodium Citrate, Retinol, Sodium Hyaluronate, Sodium Lauroyl Lactylate, Cholesterol, Phenoxyethanol, Alcohol, Isopropyl Myristate, Caprylyl Glycol, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Phytosphingosine, Xanthan Gum, Polysorbate 20, Ethylhexylglycerin"
+    },
+    {
+      "name":"Makeup Removing Cleanser Cloths",
+      "id": 18,
+      "type": "makeup remover",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/51Yo%2BOizLEL._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61HvlOFMxSL._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.1,
+      "tags": ["makeup", "dirt", "oil" , "hydration", "oily skin", "normal skin", "dry skin"],
+      "price": 8.99,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Makeup Removing Cleanser Cloths combine a gentle cleanser and makeup remover in one easy-to-use, rinse-free towelette that thoroughly clears the skin of excess oil, dirt and makeup anytime and anywhere. Formulated with three essential ceramides and hyaluronic acid to help hydrate and restore the skin’s natural barrier, our soft makeup remover cloth is fragrance-free and non-comedogenic so it won’t clog pores.",
+      "ingredients": "Aqua / Water / Eau Paraffinum Liquidum / Mineral Oil / Huile Minerale Peg-40 Stearate 1,2-Hexanediol C13-14 Isoparaffin Ceramide Np Ceramide Ap Ceramide Eop Carbomer Niacinamide Glyceryl Stearate Dimethicone Ceteareth-20 Cetearyl Alcohol Sodium Polyacrylate Sodium Lauroyl Lactylate Cholesterol Phenoxyethanol Disodium Edta Caprylyl Glycol Caprylic/Capric Triglyceride Laureth-7 Hydrolyzed Hyaluronic Acid Xanthan Gum Phytosphingosine Butylene Glycol Ethylhexylglycerin Polyacrylamide"
+    },
+    {
+      "name":"Eye Repair Cream",
+      "id": 19,
+      "type": "eye cream",
+      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/61dGswhQ%2B-L._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/513vsQIhr3L._SL1000_.jpg", "https://images-na.ssl-images-amazon.com/images/I/51kggaKdoML._SL1000_.jpg"],
+      "brand": "CeraVe",
+      "rating": 4.2,
+      "tags": ["eye", "dark circles", "puffiness", "sensitive"],
+      "price": 13.99,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : false, 
+        "cruelty-free": false,
+        "approved":true
+      }],
+      "description": "CeraVe Eye Repair Cream features a Marine & Botanical Complex to help brighten the entire eye area. Suitable for all skin types, our non-greasy, fast-absorbing, fragrance-free eye cream also contains three essential ceramides, hyaluronic acid and niacinamide, plus patented MVE Delivery Technology that releases of moisture for prolonged skin hydration",
+      "ingredients": "Aqua / Water / Eau,Niacinamide,Cetyl Alcohol,Caprylic/Capric Triglyceride,Glycerin,Propanediol,Isononyl Isononanoate,Jojoba Esters,Peg-20 Methyl Glucose Sesquistearate,Cetearyl Alcohol,Dimethicone,Methyl Glucose Sesquistearate,Asparagopsis Armata Extract,Ceramide Np,Ceramide Ap,Potassium Sorbate,Ceramide Eop,Sorbitol,Carbomer,Zinc Citrate,Behentrimonium Methosulfate,Triethanolamine,Aloe Barbadensis Leaf Extract,Sodium Lauroyl Lactylate,Sodium Hydroxide,Equisetum Arvense Extract,Sodium Hyaluronate,Cholesterol,Phenoxyethanol,Prunus Amygdalus Dulcis Oil / Sweet Almond Oil,Tocopherol,Ascophyllum Nodosum Extract,Laureth-4.Hydrogenated Vegetable Oil,Tetrasodium Edta,Maltodextrin,Phytosphingosine,Xanthan Gum,Butylene Glycol,Ethylhexylglycerin,Chrysanthellum Indicum Extract"
+    },
+    {
+      "name":"Milky Oil",
+      "id": 20,
+      "type": "makeup remover",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/5kELCPtdpjBsZZ2ImQKWdE/f6aa0a29333e44aabd30aa388b3d1c75/02_Product__1_.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/v3JeAQrlt2ypGV8PxbYR5/261842490e072d648c80eeeb242316b6/02_Product.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 4.1,
+      "tags": ["makeup", "oil"],
+      "price": 15.00,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description":"A gentle makeup remover that melts off and lifts away long-wearing and waterproof formulas, without rubbing or tugging the skin",
+      "ingredients": "Aqua/Water/Eau, Isohexadecane, PEG-40 Hydrogenated Castor Oil, Panthenol, Glycerin, PPG-26-Buteth-26, Symphytum Officinale Root Extract, Sodium Benzoate, Disodium EDTA, Citric Acid, Sodium Chloride."
+    },
+    {
+      "name":"Milky Jelly Cleanser",
+      "id": 21,
+      "type": "cleanser",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/4yaPsX1SaYpFfGjaOxy0yt/39601e753821ef7459069d6ad198f043/MilkyJelly_Carousel_1.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/1TwQ1AqmxX6pMC0gxrovKS/8bcfb016a145624def96d04876bb43a6/MilkyJelly_Carousel_5.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/7D0qra4EFfzbCwou37WHwS/35598c5f366201815b96c54403b2d8da/MilkyJelly_Carousel_7.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 4.3,
+      "tags": ["normal skin", "combination", "dry skin", "oily skin", "acne"],
+      "price": 11.00,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description":"A nourishing (and pH-balanced), creamy gel face wash that’s kind to every skin type under the sun.",
+      "ingredients": "Water/Aqua/Eau, Rosa Damascena Flower Water, PEG-7 Glyceryl Cocoate, Propanediol, Isohexadecane, Poloxamer 184, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Xylitylglucoside, Betaine, Allantoin, Glycerin, Panthenol, Symphytum Officinale Root Extract, Sodium Hyaluronate, Anhydroxylitol, Polysorbate 80, Xylitol, Ammonium Polyacryloyldimethyl Taurate, Isopropyl Myristate, Benzoic Acid, Ethylhexylglycerin, Sodium Hydroxide."
+    }, 
+    {
+      "name":"Invisible Shield",
+      "id": 22,
+      "type": "sunscreen",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/7JbVrLHqmrY5MxZqCwL4Hz/e21f5865c3659e514f4175bfa8a0603e/InvisibleShield.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/2psPexnceoz5tENf6ljLSz/214589a8f6a5d517769ec68a41006056/Invisible-Shield-carousel-3.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.8,
+      "tags": ["normal skin", "combination", "dry skin", "oily skin", "acne", "sunburn"],
+      "price": 30.18,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description":"A lightweight SPF 35 water-gel formula that feels like a serum and protects against sunburn",
+      "ingredients": " Water, Dipropylene Glycol, Methyl Trimethicone, BiosaccharideGum-4, Butyloctyl Salicylate, Caprylyl Methicone, Propanediol, Betaine, Bis-Ethylhexyl Hydroxydimethoxy Benzylmalonate, Acrylates Copolymer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hydroxyacetophenone, Phenoxyethanol, Hydrolyzed Wheat Protein/PVP Crosspolymer, Dibutyl Lauroyl Glutamide, Dibutyl Ethylhexanoyl Glutamide, Citrus Aurantium Dulcis (Orange) Peel Oil, Dipotassium Glycyrrhizate, Carbomer, Tocopheryl Acetate, Aminomethyl Propanol, Butylene Glycol, Hippophae Rhamnoides Fruit Extract, Disodium EDTA, Pentylene Glycol, Aloe Barbadensis Leaf Extract, Silica, Bioflavonoids, Potassium Sorbate, Hydroxyphenyl Propamidobenzoic Acid, Brassica Oleracea Italica (Broccoli) Extract, Ethylhexylglycerin, Camellia Sinensis Leaf Extract, Ascorbyl Palmitate"
+    },
+    {
+      "name": "Mega Greens Galaxy Pack",
+      "id": 23,
+      "type": "face mask",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/3Mf5jjzSkxGqws01ltFQi3/a0556dd09dd0025eb894cade98364936/Glossier-Mega-Greens-Galaxy-Pack-06.jpg?w=1400&q=80&fm=webp","https://images.ctfassets.net/p3w8f4svwgcg/3OpmsxBo7tbMOHO6Q9vR6/d9613fe0fde6133925302879cef83801/Glossier-Mega-Greens-Galaxy-Pack-2.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.7,
+      "tags": ["sensitive","dry skin","oily skin","normal skin"],
+      "price": 27.00,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": " A deeply cleansing and detoxifying mask to help manage excess oil",
+      "ingredients": "Water/Aqua/Eau, Kaolin, Glycerin, Magnesium Aluminum Silicate, Cetearyl Alcohol, Persea Gratissima (Avocado) Oil, Caprylic/Capric Triglyceride, Polysorbate 60, Phenoxyethanol, Oryza Sativa (Rice) Bran Extract, Xanthan Gum, Citrus Aurantium Amara (Bitter Orange) Peel Powder, Citric Acid, Helianthus Annuus (Sunflower) Extract, Ethylhexylglycerin, Trisodium Ethylenediamine Disuccinate, Potassium Sorbate, Linum Usitatissimum (Linseed) Seed Oil, Aloe Barbadensis Leaf Juice, Tocopherol, Rosmarinus Officinalis (Rosemary) Leaf Extract, Lecithin, Vaccinium Myrtillus Fruit Extract, Punica Granatum (Pomegranate) Fruit Extract, Morinda Citrifolia Fruit Extract, Lycium Barbarum Fruit Extract, Garcinia Mangostana Fruit Extract, Euterpe Oleracea Fruit Extract, Aronia Arbutifolia Fruit Extract, Aristotelia Chilensis Fruit Extract, Lepidium Sativum Sprout Extract, Propanediol, Chlorphenesin, Sorbic Acid, Benzoic Acid, Spinacia Oleracea (Spinach) Leaf Extract, Petroselinum Crispum (Parsley) Leaf Extract, Chlorophyllin-Copper Complex (CI 75810)."
+    },
+    {
+      "name": "Moisturizing Moon Mask",
+      "id": 24,
+      "type": "face mask",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/4W7SCMZJuxEAXzJuNuQWew/71f0ef8cd35e84f47033f0ca6c55381b/Glossier-Moisturizing-Moon-Mask-2.jpg?w=1400&q=80&fm=webp","https://images.ctfassets.net/p3w8f4svwgcg/2riUWrpSxikHL3Zz0O5sNp/4d9aa4961e64ad8f69e9670db6aca7dd/Glossier-Moisturizing-Moon-Mask-05.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.7,
+      "tags": ["sensitive","dry skin","oily skin","normal skin", "hydration"],
+      "price": 27.00,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": " creamy, dreamy, works-on-all-skin-types mask for deep hydration",
+      "ingredients": "Aqua/Water/Eau, Dimethicone, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glycerin, Polysorbate 20, Urea, Butylene Glycol, Butyrospermum Parkii (Shea) Butter, Glycine Soja (Soybean) Oil, Cetyl Alcohol, Cyclopentasiloxane, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Dimethicone/Vinyl Dimethicone Crosspolymer, Phenoxyethanol, Squalane, Tropaeolum Majus Flower/Leaf/Stem Extract, Cyclohexasiloxane, Mel/Honey/Miel, Tocopheryl Acetate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzophenone-4, Glyceryl Stearate, PEG-100 Stearate, Betaine, Polysorbate 60, Aloe Barbadensis Leaf Juice, Disodium EDTA, Ethylhexylglycerin, Sodium Hydroxide, Glycyrrhiza Glabra (Licorice) Root Extract, Tremella Fuciformis Sporocarp Extract, Beta-Glucan, 1,2-Hexanediol, Caprylyl Glycol, Citrus Limon (Lemon) Fruit Extract, Hyaluronic Acid."
+    }
+  ]
+}
+
