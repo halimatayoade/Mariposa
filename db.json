@@ -440,6 +440,66 @@
       }],
       "description":"A nourishing (and pH-balanced), creamy gel face wash that’s kind to every skin type under the sun.",
       "ingredients": "Water/Aqua/Eau, Rosa Damascena Flower Water, PEG-7 Glyceryl Cocoate, Propanediol, Isohexadecane, Poloxamer 184, Acrylamide/Sodium Acryloyldimethyltaurate Copolymer, Xylitylglucoside, Betaine, Allantoin, Glycerin, Panthenol, Symphytum Officinale Root Extract, Sodium Hyaluronate, Anhydroxylitol, Polysorbate 80, Xylitol, Ammonium Polyacryloyldimethyl Taurate, Isopropyl Myristate, Benzoic Acid, Ethylhexylglycerin, Sodium Hydroxide."
+    }, 
+    {
+      "name":"Invisible Shield",
+      "id": 22,
+      "type": "sunscreen",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/7JbVrLHqmrY5MxZqCwL4Hz/e21f5865c3659e514f4175bfa8a0603e/InvisibleShield.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/2psPexnceoz5tENf6ljLSz/214589a8f6a5d517769ec68a41006056/Invisible-Shield-carousel-3.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.8,
+      "tags": ["normal skin", "combination", "dry skin", "oily skin", "acne", "sunburn"],
+      "price": 30.18,
+      "components":[{
+        "water-free" : false,
+        "alcohol-free" : false,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":true
+      }],
+      "description":"A lightweight SPF 35 water-gel formula that feels like a serum and protects against sunburn",
+      "ingredients": " Water, Dipropylene Glycol, Methyl Trimethicone, BiosaccharideGum-4, Butyloctyl Salicylate, Caprylyl Methicone, Propanediol, Betaine, Bis-Ethylhexyl Hydroxydimethoxy Benzylmalonate, Acrylates Copolymer, Ammonium Acryloyldimethyltaurate/VP Copolymer, Hydroxyacetophenone, Phenoxyethanol, Hydrolyzed Wheat Protein/PVP Crosspolymer, Dibutyl Lauroyl Glutamide, Dibutyl Ethylhexanoyl Glutamide, Citrus Aurantium Dulcis (Orange) Peel Oil, Dipotassium Glycyrrhizate, Carbomer, Tocopheryl Acetate, Aminomethyl Propanol, Butylene Glycol, Hippophae Rhamnoides Fruit Extract, Disodium EDTA, Pentylene Glycol, Aloe Barbadensis Leaf Extract, Silica, Bioflavonoids, Potassium Sorbate, Hydroxyphenyl Propamidobenzoic Acid, Brassica Oleracea Italica (Broccoli) Extract, Ethylhexylglycerin, Camellia Sinensis Leaf Extract, Ascorbyl Palmitate"
+    },
+    {
+      "name": "Mega Greens Galaxy Pack",
+      "id": 23,
+      "type": "face mask",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/3Mf5jjzSkxGqws01ltFQi3/a0556dd09dd0025eb894cade98364936/Glossier-Mega-Greens-Galaxy-Pack-06.jpg?w=1400&q=80&fm=webp","https://images.ctfassets.net/p3w8f4svwgcg/3OpmsxBo7tbMOHO6Q9vR6/d9613fe0fde6133925302879cef83801/Glossier-Mega-Greens-Galaxy-Pack-2.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.7,
+      "tags": ["sensitive","dry skin","oily skin","normal skin"],
+      "price": 27.00,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": " A deeply cleansing and detoxifying mask to help manage excess oil",
+      "ingredients": "Water/Aqua/Eau, Kaolin, Glycerin, Magnesium Aluminum Silicate, Cetearyl Alcohol, Persea Gratissima (Avocado) Oil, Caprylic/Capric Triglyceride, Polysorbate 60, Phenoxyethanol, Oryza Sativa (Rice) Bran Extract, Xanthan Gum, Citrus Aurantium Amara (Bitter Orange) Peel Powder, Citric Acid, Helianthus Annuus (Sunflower) Extract, Ethylhexylglycerin, Trisodium Ethylenediamine Disuccinate, Potassium Sorbate, Linum Usitatissimum (Linseed) Seed Oil, Aloe Barbadensis Leaf Juice, Tocopherol, Rosmarinus Officinalis (Rosemary) Leaf Extract, Lecithin, Vaccinium Myrtillus Fruit Extract, Punica Granatum (Pomegranate) Fruit Extract, Morinda Citrifolia Fruit Extract, Lycium Barbarum Fruit Extract, Garcinia Mangostana Fruit Extract, Euterpe Oleracea Fruit Extract, Aronia Arbutifolia Fruit Extract, Aristotelia Chilensis Fruit Extract, Lepidium Sativum Sprout Extract, Propanediol, Chlorphenesin, Sorbic Acid, Benzoic Acid, Spinacia Oleracea (Spinach) Leaf Extract, Petroselinum Crispum (Parsley) Leaf Extract, Chlorophyllin-Copper Complex (CI 75810)."
+    },
+    {
+      "name": "Moisturizing Moon Mask",
+      "id": 24,
+      "type": "face mask",
+      "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/4W7SCMZJuxEAXzJuNuQWew/71f0ef8cd35e84f47033f0ca6c55381b/Glossier-Moisturizing-Moon-Mask-2.jpg?w=1400&q=80&fm=webp","https://images.ctfassets.net/p3w8f4svwgcg/2riUWrpSxikHL3Zz0O5sNp/4d9aa4961e64ad8f69e9670db6aca7dd/Glossier-Moisturizing-Moon-Mask-05.jpg?w=1400&q=80&fm=webp"],
+      "brand": "Glossier",
+      "rating": 3.7,
+      "tags": ["sensitive","dry skin","oily skin","normal skin", "hydration"],
+      "price": 27.00,
+      "components":[{
+        "water-free" : true,
+        "alcohol-free" : true,
+        "oil-free" : false,
+        "vegan" : true, 
+        "cruelty-free": true,
+        "approved":false
+      }],
+      "description": " creamy, dreamy, works-on-all-skin-types mask for deep hydration",
+      "ingredients": "Aqua/Water/Eau, Dimethicone, Prunus Amygdalus Dulcis (Sweet Almond) Oil, Glycerin, Polysorbate 20, Urea, Butylene Glycol, Butyrospermum Parkii (Shea) Butter, Glycine Soja (Soybean) Oil, Cetyl Alcohol, Cyclopentasiloxane, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Dimethicone/Vinyl Dimethicone Crosspolymer, Phenoxyethanol, Squalane, Tropaeolum Majus Flower/Leaf/Stem Extract, Cyclohexasiloxane, Mel/Honey/Miel, Tocopheryl Acetate, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Benzophenone-4, Glyceryl Stearate, PEG-100 Stearate, Betaine, Polysorbate 60, Aloe Barbadensis Leaf Juice, Disodium EDTA, Ethylhexylglycerin, Sodium Hydroxide, Glycyrrhiza Glabra (Licorice) Root Extract, Tremella Fuciformis Sporocarp Extract, Beta-Glucan, 1,2-Hexanediol, Caprylyl Glycol, Citrus Limon (Lemon) Fruit Extract, Hyaluronic Acid."
     }
   ]
 }
