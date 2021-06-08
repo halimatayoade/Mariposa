@@ -104,7 +104,7 @@
     {
       "name": "Natural Moisturizing Factors + HA",
       "id": 5,
-      "type": "moisturizers",
+      "type": "moisturizer",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2ff47ee4/Images/products/The%20Ordinary/rdn-natural-moisturizing-factors-ha-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw36bc0d1a/Images/products/The%20Ordinary/Product%20Swatches/rdn-natural-moisturizing-factors-ha-swatch.jpg"],
       "brand": "The Ordinary",
       "rating": 4.4,
@@ -364,7 +364,7 @@
     {
       "name":"Makeup Removing Cleanser Cloths",
       "id": 18,
-      "type": "makeup remover",
+      "type": "assessories",
       "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/51Yo%2BOizLEL._SL1000_.jpg","https://images-na.ssl-images-amazon.com/images/I/61HvlOFMxSL._SL1000_.jpg"],
       "brand": "CeraVe",
       "rating": 4.1,
