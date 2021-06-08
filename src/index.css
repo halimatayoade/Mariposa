@@ -1,3 +1,232 @@
-img {
-  width: 300px;
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
 }
+.navbar {
+  overflow: hidden;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.material-icons-outlined {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 36px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  margin-right: 3px;
+  position: relative;
+  top: 5px;
+  right: 5px;
+}
+
+#heart {
+  color:red;
+}
+
+h1 {
+  width: 200px;
+  margin: 0;
+  font-size: 36px;
+}
+
+.search {
+  position: relative;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+}
+
+.left {
+  justify-content: left;
+}
+
+.right {
+  justify-content: right;
+}
+
+.search .material-icons-outlined {
+  font-size: 24px;
+  color: black;
+  position: absolute;
+  top: 6px;
+  left: 7px;
+  width: 30px;
+}
+
+.search input {
+  font-family: 'Josefin Sans', sans-serif;
+  border-radius: 10px;
+  border: 0 solid;
+  padding: 10px;
+  background-color: #faedff;
+  text-indent: 30px;
+}
+
+.container {
+  max-width: 1000;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #dac3e3;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 40%;
+  background-color: #dac3e3;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  text-align: left;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content  a:hover {
+  background-color: #b395bf;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+aside {
+  padding-left: 30px;
+  width: 300px;
+  margin: 0;
+}
+
+aside ul {
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  max-width: 100%;
+}
+
+.content h2 {
+  margin-left: 30px;
+  font-size: 36px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.product {
+  padding: 40px;
+  width: 250px;
+  align-self: flex-start;
+}
+
+.product img {
+  width: 250px;
+  height: auto;
+}
+
+.price {
+  color: grey;
+  font-size: 20px;
+}
+
+.brand {
+  color: grey;
+  font-size: 14px;
+}
+
+.name {
+  font-size: 15px;
+}
+
+.product button {
+  font-family: 'Josefin Sans', sans-serif;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: black;
+  background-color: #b3faa0;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.product button:hover {
+  opacity: 0.7;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #b3faa0; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b395bf; 
+}
+

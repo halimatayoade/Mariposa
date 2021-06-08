@@ -345,7 +345,7 @@
       "name":"Resurfacing Retinol Serum",
       "id": 17,
       "type": "serum",
-      "imageURL": ["https://images-na.ssl-images-amazon.com/images/I/61UNRfuCDhL._SL1500_.jpg","https://images-na.ssl-images-amazon.com/images/I/61GJ1wOqrTL._SL1000_.jpg"],
+      "imageURL": ["https://images.ulta.com/is/image/Ulta/2556947?op_sharpen=1&resMode=bilin&qlt=85&wid=800&hei=800&fmt=jpg","https://images-na.ssl-images-amazon.com/images/I/61GJ1wOqrTL._SL1000_.jpg"],
       "brand": "CeraVe",
       "rating": 4.5,
       "tags": ["acne"],
@@ -404,7 +404,7 @@
     {
       "name":"Milky Oil",
       "id": 20,
-      "type": "makeup remover",
+      "type": "assessories",
       "imageURL": ["https://images.ctfassets.net/p3w8f4svwgcg/5kELCPtdpjBsZZ2ImQKWdE/f6aa0a29333e44aabd30aa388b3d1c75/02_Product__1_.jpg?w=1400&q=80&fm=webp", "https://images.ctfassets.net/p3w8f4svwgcg/v3JeAQrlt2ypGV8PxbYR5/261842490e072d648c80eeeb242316b6/02_Product.jpg?w=1400&q=80&fm=webp"],
       "brand": "Glossier",
       "rating": 4.1,
