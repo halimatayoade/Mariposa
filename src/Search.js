@@ -15,14 +15,19 @@ const Search = (props) => {
   return (
     <>
       {
-        <div className="products">
-          {
-            item
-              .map((product) => (
-                <Product key={product.id} product={product} addToCart={props.addToCart} />
-              ))
-          }
-        </div>
+        <>
+        <div className="content">
+          <h2 className="search-results">Search results for {query}...</h2>
+          <div className="products">
+            {
+              item
+                .map((product) => (
+                  <Product key={product.id} product={product} addToCart={props.addToCart} />
+                ))
+            }
+          </div>
+          </div>
+        </>
       }
     </>
   );
