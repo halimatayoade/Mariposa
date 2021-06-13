@@ -1,6 +1,22 @@
-import React from 'react';
-import { Link } from "react-router-dom";
-function Header(props) {
+import React, { useState } from 'react';
+import { Link, useHistory } from "react-router-dom";
+
+const Header = () => {
+  const [filterInput, setFilterInput] = useState("")
+  const history = useHistory();
+
+  const updateFilterInput = (e) => {
+    setFilterInput(e.target.value);
+  }
+
+  const onSearch = (e) => {
+    e.preventDefault();
+    history.push({
+      pathname: '/search',
+      search: `query=${filterInput}`
+    });
+  }
+
   return (
     <>
      <header>
@@ -9,8 +25,8 @@ function Header(props) {
         </div>
         <li class="search">
           <i class="material-icons-outlined">search</i>
-          <form>
-            <input size="40" type="search" id="search-bar" placeholder="Search" />
+          <form id="search" className="search" onSubmit={onSearch}>
+            <input size="40" type="search" id="search-bar" placeholder="Search" value={filterInput} onChange={updateFilterInput}/>
           </form>
         </li>
         <div class="right">

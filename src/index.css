@@ -125,6 +125,7 @@ header {
   z-index: 1;
 }
 
+
 .dropdown-content a {
   float: none;
   text-align: left;
@@ -167,13 +168,13 @@ aside ul {
   padding: 30px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .product {
   padding: 15px;
   width: 250px;
   align-self: flex-start;
+  margin: 22px;
 }
 
 .product img {
