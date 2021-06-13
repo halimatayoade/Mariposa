@@ -3,6 +3,7 @@ import Product from './Product.js';
 import Header from './Header';
 import Cart from './Cart.js';
 import Search from './Search.js';
+import Details from './Details.js'
 import { Switch, Route} from "react-router-dom";
 
 const App = () => {
@@ -59,6 +60,9 @@ const App = () => {
         </Route>
         <Route path="/search">
           <Search allproducts={allproducts} addToCart={addToCart}/>
+        </Route>
+        <Route path="/details/:id">
+          <Details allproducts={allproducts} cart={cart}  addToCart={addToCart}/>
         </Route>
       </Switch>
     </>

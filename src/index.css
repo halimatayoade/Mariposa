@@ -225,8 +225,7 @@ aside ul {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ffffff; 
-  border-radius: 10px;
+  background: #000; 
 }
  
 /* Handle */

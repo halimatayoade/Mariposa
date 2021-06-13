@@ -3,7 +3,7 @@
     {
       "name": "Hyaluronic Acid 2% + B5",
       "id": 0,
-      "type": "serum",
+      "type": "serums",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw75298ca0/Images/products/The%20Ordinary/rdn-hyaluronic-acid-2pct-b5-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw1054cbb6/Images/products/The%20Ordinary/Product%20Swatches/rdn-hyaluronic-acid-2pct-b5-swatch.jpg"],
       "brand":"The Ordinary",
       "rating": 4.2,
@@ -44,7 +44,7 @@
     {
       "name": "Niacinamide 10% + Zinc 1%",
       "id": 2,
-      "type":"serum",
+      "type":"serums",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa53d85c0/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3bf5ab23/Images/products/The%20Ordinary/Product%20Swatches/rdn-niacinamide-10pct-zinc-1pct-swatch.jpg"],
       "brand": "The Ordinary",
       "rating": 4.5,
@@ -124,7 +124,7 @@
     {
       "name": "Caffeine Solution 5% + EGCG",
       "id": 6,
-      "type": "serum",
+      "type": "serums",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw2e3374bb/Images/products/The%20Ordinary/rdn-caffeine-solution-5pct-egcg-30ml.png?sw=800&sh=800&sm=fit","https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw3843c268/Images/products/The%20Ordinary/Product%20Swatches/rdn-caffeine-solution-5pct-egcg-30ml-swatch.jpg?sw=800&sh=800&sm=fit"],
       "brand": "The Ordinary",
       "rating": 3.9,
@@ -164,7 +164,7 @@
     {
       "name": "Amino Acids + B5",
       "id": 8,
-      "type": "serum",
+      "type": "serums",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwfce76af7/Images/products/The%20Ordinary/rdn-amino-acids-b5-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3e4639ef/Images/products/The%20Ordinary/Product%20Swatches/rdn-amino-acids-b5-30ml-swatch.jpg"],
       "brand": "The Ordinary",
       "rating": 4.5,
@@ -204,7 +204,7 @@
     {
       "name": "Buffet",
       "id": 10,
-      "type": "serum",
+      "type": "serums",
       "imageURL": ["https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dw07959458/Images/products/The%20Ordinary/rdn-buffet-30ml.png?sw=900&sh=900&sm=fit","https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dwf1c1702e/Images/products/The%20Ordinary/Product%20Swatches/rdn-buffet-swatch.jpg"],
       "brand": "The Ordinary",
       "rating": 4.4,
@@ -344,7 +344,7 @@
     {
       "name":"Resurfacing Retinol Serum",
       "id": 17,
-      "type": "serum",
+      "type": "serums",
       "imageURL": ["https://images.ulta.com/is/image/Ulta/2556947?op_sharpen=1&resMode=bilin&qlt=85&wid=800&hei=800&fmt=jpg","https://images-na.ssl-images-amazon.com/images/I/61GJ1wOqrTL._SL1000_.jpg"],
       "brand": "CeraVe",
       "rating": 4.5,
