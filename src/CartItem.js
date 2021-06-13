@@ -1,6 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 function CartItem(props) {
+  let condition = props.favourites.filter(data => data.id === props.product.id)
+  let toggle;
+  if (condition.length === 0) {
+    toggle = <span onClick={() => props.addToFavorites(props.product)} id="heart" class="material-icons-outlined">favorite_border</span>;
+  } else if (condition.length > 0) {
+    toggle =   <span onClick={() => props.addToFavorites(props.product)} id="heart" class="material-icons-outlined">favorite</span>
+  }
   return (
   
     <div class="item">  
@@ -17,13 +24,8 @@ function CartItem(props) {
       </div>
      
       <div class="icons">
-        <div data-toggled="true" class="listToggle">
-          <span id="heart" class="material-icons-outlined">
-            favorite_border
-          </span>
-          <span id="heart" class="material-icons-outlined">
-            favorite
-          </span>
+        <div class="listToggle">
+            {toggle}
         </div>
         <div class="delete" onClick={() => props.addToCart(props.product)} >
           <span class="material-icons-outlined">delete</span>

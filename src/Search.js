@@ -12,6 +12,7 @@ const Search = (props) => {
     return (currentElement.name.toLowerCase()).includes(query.toLowerCase()) || currentElement.type === query || (currentElement.type.toLowerCase()).includes(query.toLowerCase()) || (currentElement.brand.toLowerCase()).includes(query.toLowerCase());
   });
   console.log(item)
+  
   return (
     <>
       {
@@ -22,7 +23,7 @@ const Search = (props) => {
             {
               item
                 .map((product) => (
-                  <Product key={product.id} product={product} addToCart={props.addToCart} />
+                  <Product key={product.id}  favourites={props.favourites} addToFavorites={props.addToFavorites} product={product} cart={props.cart} addToCart={props.addToCart} />
                 ))
             }
           </div>

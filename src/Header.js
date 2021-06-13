@@ -31,7 +31,7 @@ const Header = () => {
         </li>
         <div class="right">
           <span class="material-icons-outlined">person_outline</span>
-          <span id="heart" class="material-icons-outlined">favorite</span>
+          <Link to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
           <Link to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
         </div>
       </header>
