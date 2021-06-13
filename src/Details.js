@@ -7,6 +7,14 @@ const Details = (props) => {
   let item = props.allproducts.filter(data => data.id == id);
   let product = item[0];
 
+  let condition = props.favourites.filter(data => data.id === product.id)
+  let toggle;
+  if (condition.length === 0) {
+    toggle = <span onClick={() => props.addToFavorites(product)} id="heart" class="material-icons-outlined">favorite_border</span>;
+  } else if (condition.length > 0) {
+    toggle =   <span onClick={() => props.addToFavorites(product)} id="heart" class="material-icons-outlined">favorite</span>
+  }
+
   return (
     <>
     <div className="product-content">
@@ -19,12 +27,7 @@ const Details = (props) => {
         <div className="right">
           <h3>{product.name}</h3>
           <div className="stars restaurant-rating" style={{ "--rating": product.rating }}>{product.rating}</div>
-          <span id="heart" class="material-icons-outlined">
-            favorite_border
-            </span>
-          <span id="heart" class="material-icons-outlined">
-            favorite
-          </span>
+          {toggle}
           <p>{product.description}</p>
           <p>{product.ingredients}</p>
           <button onClick={() => props.addToCart(product)} className="add-to-bag">Add to Bag</button>

@@ -19,7 +19,7 @@ const Cart = (props) => {
           {
             props.cart
             .map((product) => (
-              <CartItem key={product.id} product={product} addToCart={props.addToCart}/>
+              <CartItem key={product.id} product={product} addToCart={props.addToCart} favourites={props.favourites} addToFavorites={props.addToFavorites} />
             ))
           }
         </div>
