@@ -22,7 +22,9 @@ function CartItem(props) {
             favorite_border
           </span>
         </div>
-        <span class="material-icons-outlined">delete</span>
+        <div class="delete" onClick={() => props.addToCart(props.product)} >
+          <span class="material-icons-outlined">delete</span>
+        </div>
       </div>
     </div>
   );

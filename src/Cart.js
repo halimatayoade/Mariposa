@@ -15,17 +15,18 @@ const Cart = (props) => {
       <h1>Shopping Bag</h1>
       <div className="title">
         <div className="items">
+        <h2>There are {props.cart.length} items in the cart</h2>
           {
             props.cart
             .map((product) => (
-              <CartItem key={product.id} product={product} />
+              <CartItem key={product.id} product={product} addToCart={props.addToCart}/>
             ))
           }
         </div>
         <div className="prices">
-          <div className="orderValue"><div id="text">Order Value:</div><div id="value">${prices}</div></div>
-          <div className="delivery"><div id="text">Delivery:</div><div id="value">{(delivery == 0) ? 'FREE' : `$${(delivery).toFixed}`}</div></div>
-          <div className="total"><div id="text">Total:</div><div id="value"> ${prices + delivery}</div></div>
+          <div className="orderValue"><div id="text">Order Value:</div><div id="value">${(prices).toFixed(2)}</div></div>
+          <div className="delivery"><div id="text">Delivery:</div><div id="value">{(delivery == 0) ? 'FREE' : `$${(delivery).toFixed(2)}`}</div></div>
+          <div className="total"><div id="text">Total:</div><div id="value"> ${(prices + delivery).toFixed(2)}</div></div>
           <button class="checkout">Checkout</button>
         </div>
       </div>

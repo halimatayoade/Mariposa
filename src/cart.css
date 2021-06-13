@@ -16,7 +16,7 @@ h1 {
 }
 
 .items img {
-  width: 200px;
+  width: 100px;
 }
 
 .item {
@@ -82,4 +82,8 @@ h1 {
   position: absolute;
   margin-top: 30px;
   transform: translateX(18%);
+}
+
+.delete {
+  cursor: pointer;
 }
