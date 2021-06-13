@@ -1,0 +1,89 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  margin: auto;
+  width: 300px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.items img {
+  width: 100px;
+}
+
+.item {
+  width: 700px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: grey solid 1px;
+}
+
+.center {
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.prices {
+  width: 400px;
+  height: 400px;
+  background-color: #cfc0ff ;
+  font-size: 20px;
+  padding: 5px;
+  position: relative;
+}
+
+.orderValue {
+  border-bottom: black solid 1px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.delivery{
+  border-bottom: black solid 1px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  border-bottom: black solid 1px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout {
+  background-color: black;
+  border: black solid 2px;
+  border-radius: 10px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  margin-top: 30px;
+  transform: translateX(18%);
+}
+
+.delete {
+  cursor: pointer;
+}
