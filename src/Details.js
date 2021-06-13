@@ -17,6 +17,9 @@ const Details = (props) => {
         <div className="stars restaurant-rating" style={{ "--rating": item[0].rating }}></div>
         <p>{item[0].description}</p>
         <p>{item[0].ingredients}</p>
+        <div className="components">
+            
+        </div>
       </div>
     </>
   );
