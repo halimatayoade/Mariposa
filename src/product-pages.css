@@ -1,3 +1,49 @@
-.product-details{
-  background-color: yellow;
+.product-details img {
+  width: 400px;
+}
+
+.product-details {
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: space-between;
+  width:1000px;
+}
+
+.product-details .right {
+  width: 400px;
+}
+
+.product-details .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-content {
+  display: flex;
+  justify-content: center;
+  max-width:1500px;
+}
+
+.product-details h3{
+  font-size: 24px;
+}
+
+.product-details p{
+  text-align: justify;
+}
+
+.product-details .stars{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.product-details .add-to-bag {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 15px 20px; 
+  border: black solid 2px;
+  cursor: pointer;
 }

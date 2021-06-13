@@ -240,17 +240,16 @@ aside ul {
 }
 
 :root {
-  --star-size: 40px;
-  --star-color: #fff;
+  --star-size: 30px;
+  --star-color: rgb(149, 149, 149);
   --star-background: rgb(0, 0, 0);
 }
 
 .stars {
-  --percent: calc(var(--rating) / 5.1 * 100%);
+  --percent: calc(var(--rating) / 5 * 100%);
   font-size: var(--star-size);
   font-family: Times;
   line-height: 1;
-  -webkit-text-stroke: 1px #000;
 }
 
 .stars::before {
@@ -260,3 +259,5 @@ aside ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+

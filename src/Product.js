@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 function Product(props) {
+  
   return (
   
     <div class="product">  
@@ -14,8 +15,11 @@ function Product(props) {
         <span id="heart" class="material-icons-outlined">
           favorite_border
         </span>
+        <span id="heart" class="material-icons-outlined">
+          favorite
+        </span>
       </div>
-      <p><button onClick={() => props.addToCart(props.product)}>Add to Cart</button></p>
+      <p><button onClick={() => props.addToCart(props.product)}>Add to Bag</button></p>
     </div>
   );
 }

@@ -1,28 +1,39 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './product-pages.css';
 
 const Details = (props) => {
   const { id } = useParams();
   let item = props.allproducts.filter(data => data.id == id);
-
+  let product = item[0];
 
   return (
     <>
+    <div className="product-content">
       <div class="product-details">
-        {item[0].imageURL.map((char, index) => (
-          <img src={char}/>
+        <div className="left">
+        {product.imageURL.map((char, index) => (
+          <div><img src={char} /></div>
         ))}
-        <h1>{item[0].name}</h1>
-        <div className="stars restaurant-rating" style={{ "--rating": item[0].rating }}></div>
-        <p>{item[0].description}</p>
-        <p>{item[0].ingredients}</p>
-        <div className="components">
-            
         </div>
+        <div className="right">
+          <h3>{product.name}</h3>
+          <div className="stars restaurant-rating" style={{ "--rating": product.rating }}>{product.rating}</div>
+          <span id="heart" class="material-icons-outlined">
+            favorite_border
+            </span>
+          <span id="heart" class="material-icons-outlined">
+            favorite
+          </span>
+          <p>{product.description}</p>
+          <p>{product.ingredients}</p>
+          <button onClick={() => props.addToCart(product)} className="add-to-bag">Add to Bag</button>
+        </div>
+      </div>
       </div>
     </>
   );
 }
 
 export default Details;
+
