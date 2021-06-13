@@ -240,7 +240,7 @@ aside ul {
 }
 
 :root {
-  --star-size: 40px;
+  --star-size: 30px;
   --star-color: rgb(149, 149, 149);
   --star-background: rgb(0, 0, 0);
 }

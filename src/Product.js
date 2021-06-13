@@ -19,7 +19,7 @@ function Product(props) {
           favorite
         </span>
       </div>
-      <p><button onClick={() => props.addToCart(props.product)}>Add to Cart</button></p>
+      <p><button onClick={() => props.addToCart(props.product)}>Add to Bag</button></p>
     </div>
   );
 }
