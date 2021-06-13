@@ -3,13 +3,13 @@ import { useParams } from 'react-router-dom';
 
 const Details = (props) => {
   const { id } = useParams();
-  const [product, setItem] = useState({});
   let item = props.allproducts.filter(data => data.id == id);
-  setItem(item)
+  console.log(item)
+  console.log(item.name)
   return (
     <>
       {
-        <h1>{product.name}</h1>
+       <h1>{item[0].name}</h1>
       }
     </>
   );
