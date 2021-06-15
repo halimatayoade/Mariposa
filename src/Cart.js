@@ -4,7 +4,7 @@ import './cart.css';
 const Cart = (props) => {
   let prices = parseFloat(props.cart.reduce((acc, ci) => acc + ci.price, 0).toFixed(2));
   let delivery;
-  if (prices < 100) {
+  if (prices < 50) {
     delivery = 7.99;
   } else {
     delivery = 0.00;
@@ -27,6 +27,7 @@ const Cart = (props) => {
           <div className="orderValue"><div id="text">Order Value:</div><div id="value">${(prices).toFixed(2)}</div></div>
           <div className="delivery"><div id="text">Delivery:</div><div id="value">{(delivery == 0) ? 'FREE' : `$${(delivery).toFixed(2)}`}</div></div>
           <div className="total"><div id="text">Total:</div><div id="value"> ${(prices + delivery).toFixed(2)}</div></div>
+        <div className="total">{(prices < 50) ? `${(50 - prices).toFixed(2)} till free shipping` : false}</div>
           <button class="checkout">Checkout</button>
         </div>
       </div>

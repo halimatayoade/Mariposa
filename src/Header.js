@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, useHistory } from "react-router-dom";
-
-const Header = () => {
+import { Button } from '@material-ui/core';
+const Header = (props) => {
   const [filterInput, setFilterInput] = useState("")
   const history = useHistory();
 
@@ -30,14 +30,19 @@ const Header = () => {
           </form>
         </li>
         <div class="right">
-          <span class="material-icons-outlined">person_outline</span>
+        {
+          props.currentUser ?
+          <Button onClick={props.logout} color="inherit">Logout</Button>
+          :
+          <Button component={Link} to="/login" color="inherit">Login</Button>
+        }
+            <Link to="/my-account"><span class="material-icons-outlined">person_outline</span></Link>
           <Link to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
           <Link to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
         </div>
       </header>
       <div class="navbar">
         <div class="container">
-          <a href="#">New</a>
           <div class="dropdown">
             <button class="dropbtn">
               Brands
@@ -53,8 +58,7 @@ const Header = () => {
             </div>
           </div>
           <a href="#">Regimen Builder</a>
-          <a href="#">Skincare</a>
-          <a href="#">Tools & Assessories</a>
+          <Link to="/skin-care">Products</Link>
           <a href="#">Under $15</a>
         </div>
       </div>
