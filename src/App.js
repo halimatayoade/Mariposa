@@ -10,6 +10,7 @@ import { Container } from '@material-ui/core';
 import { Switch, Route } from "react-router-dom";
 import Favourites from './Favourites.js';
 import Dashboard from "./Dashboard";
+import Checkout from "./Checkout";
 
 const App = () => {
   const [allproducts, setProducts] = useState([]);
@@ -110,7 +111,10 @@ const App = () => {
           <Login currentUser={currentUser}></Login>
         </Route>
         <Route path="/my-account">
-          <Dashboard user={user}></Dashboard>
+          <Dashboard user={user} logout={logout} ></Dashboard>
+        </Route>
+        <Route path="/checkout">
+          <Checkout user={user} logout={logout} ></Checkout>
         </Route>
     </Switch>
     </>

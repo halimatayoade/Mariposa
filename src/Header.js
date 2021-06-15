@@ -21,7 +21,7 @@ const Header = (props) => {
     <>
      <header>
         <div class="left">
-        <Link to="/"><h1>MARIPOSA</h1></Link>
+        <Link style={{ textDecoration: 'none', color: 'black' }} to="/"><h1>MARIPOSA</h1></Link>
         </div>
         <li class="search">
           <i class="material-icons-outlined">search</i>
@@ -32,13 +32,15 @@ const Header = (props) => {
         <div class="right">
         {
           props.currentUser ?
-          <Button onClick={props.logout} color="inherit">Logout</Button>
+          <>
+          <Button onClick={props.logout} color="inherit"><Link style={{ textDecoration: 'none', color: 'black' }}to="/">Logout</Link></Button>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/my-account"><span class="material-icons-outlined">person_outline</span></Link>
+          </>
           :
           <Button component={Link} to="/login" color="inherit">Login</Button>
         }
-            <Link to="/my-account"><span class="material-icons-outlined">person_outline</span></Link>
-          <Link to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
-          <Link to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
         </div>
       </header>
       <div class="navbar">
@@ -58,7 +60,7 @@ const Header = (props) => {
             </div>
           </div>
           <a href="#">Regimen Builder</a>
-          <Link to="/skin-care">Products</Link>
+          <Link style={{ textDecoration: 'none', color: 'white' }} to="/skin-care">Products</Link>
           <a href="#">Under $15</a>
         </div>
       </div>
