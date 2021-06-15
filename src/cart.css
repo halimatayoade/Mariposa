@@ -40,12 +40,13 @@ h1 {
 }
 
 .prices {
-  width: 400px;
-  height: 400px;
+  width: 500px;
   background-color: #cfc0ff ;
   font-size: 20px;
   padding: 5px;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .orderValue {
@@ -86,4 +87,40 @@ h1 {
 
 .delete {
   cursor: pointer;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type=text] {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type=submit] {
+  margin-top: 20px;
+  padding: 12px;
+  border: 1px solid #000;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+}
+
+
+label {
+  font-size: 16px;
+}
+
+.orders img {
+  width: 100px;
+}
+
+.orders .item p{
+  font-size: 10px;
 }

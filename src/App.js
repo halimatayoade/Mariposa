@@ -7,16 +7,19 @@ import Details from './Details.js'
 import SignUp from './SignUp';
 import Login from './Login';
 import { Container } from '@material-ui/core';
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, useHistory } from "react-router-dom";
 import Favourites from './Favourites.js';
 import Dashboard from "./Dashboard";
+import Address from './Address';
 import Checkout from "./Checkout";
 
 const App = () => {
+  const history = useHistory();
   const [allproducts, setProducts] = useState([]);
   const [cart, setCart] = useState([]);
   const [favourites, setFavourites] = useState([]);
   const [user, setUser] = useState();
+  const [cost, setCost] = useState()
 
 
   useEffect(() => {
@@ -34,6 +37,14 @@ const App = () => {
     }
     fetchData();
   }, []);
+
+  const checkout = cart => {
+    setCart([])
+  }
+
+  const balance = cost => {
+    setCost(cost)
+  }
 
   const currentUser = user => {
     setUser(currentUser => {
@@ -93,7 +104,7 @@ const App = () => {
           <Skincare allproducts={allproducts} cart={cart} favourites={favourites} addToCart={addToCart} addToFavorites={addToFavorites} user={user}></Skincare>
         </Route>
         <Route path="/cart">
-          <Cart cart={cart} favourites={favourites} addToCart={addToCart} addToFavorites={addToFavorites} />
+          <Cart  balance={balance} cart={cart} favourites={favourites} addToCart={addToCart} addToFavorites={addToFavorites} />
         </Route>
         <Route path="/favourites">
           <Favourites cart={cart} favourites={favourites} addToCart={addToCart} addToFavorites={addToFavorites} />
@@ -111,10 +122,13 @@ const App = () => {
           <Login currentUser={currentUser}></Login>
         </Route>
         <Route path="/my-account">
-          <Dashboard user={user} logout={logout} ></Dashboard>
+          <Dashboard checkout={checkout} addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Dashboard>
         </Route>
         <Route path="/checkout">
-          <Checkout user={user} logout={logout} ></Checkout>
+          <Checkout checkout={checkout} addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Checkout>
+        </Route>
+        <Route path="/add-address">
+          <Address cost={cost} user={user} logout={logout} currentUser={currentUser}></Address>
         </Route>
     </Switch>
     </>

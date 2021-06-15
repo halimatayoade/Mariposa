@@ -727,12 +727,154 @@
       "password": "lps",
       "fname": "Hali",
       "lname": "Ayoade",
+      "address": "100 Kiillarney Street",
+      "cardNum": "q",
+      "expMonth": "d",
+      "expYear": "r",
+      "cvv": "e",
+      "time": "2021-06-15T19:55:07.255Z",
+      "city": "Winnipeg",
+      "province": "MB",
+      "postalCode": "R3Y 0Z4",
       "orders": [
         {
-         
+          "name": "Foaming Facial Cleanser",
+          "id": 1,
+          "type": "cleanser",
+          "imageURL": [
+            "https://images-na.ssl-images-amazon.com/images/I/51%2ByNMwODML._SL1000_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/61ZMnD5sUmL._SL1000_.jpg"
+          ],
+          "brand": "CeraVe",
+          "rating": 4.7,
+          "tags": [
+            "dry skin",
+            "oil skin",
+            "normal skin"
+          ],
+          "price": 13.48,
+          "components": [
+            {
+              "water-free": false,
+              "alcohol-free": false,
+              "oil-free": true,
+              "vegan": false,
+              "cruelty-free": false,
+              "approved": true
+            }
+          ],
+          "description": "CeraVe Foaming Facial Cleanser was developed with dermatologists to deeply cleanse, remove excess oil and refresh the skin without over-stripping it or leaving it feeling tight and dry. Featuring three essential ceramides, hyaluronic acid and niacinamide, this gel-based foaming cleanser is an effective yet non-irritating way to cleanse and care for your normal to oily skin.",
+          "ingredients": "Aqua / Water / Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum."
+        },
+        {
+          "name": "Niacinamide 10% + Zinc 1%",
+          "id": 2,
+          "type": "serums",
+          "imageURL": [
+            "https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa53d85c0/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=800&sm=fit",
+            "https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3bf5ab23/Images/products/The%20Ordinary/Product%20Swatches/rdn-niacinamide-10pct-zinc-1pct-swatch.jpg"
+          ],
+          "brand": "The Ordinary",
+          "rating": 4.5,
+          "tags": [
+            "dry skin",
+            "oil skin",
+            "normal skin"
+          ],
+          "price": 5.9,
+          "components": [
+            {
+              "water-free": false,
+              "alcohol-free": true,
+              "oil-free": true,
+              "vegan": true,
+              "cruelty-free": true,
+              "approved": true
+            }
+          ],
+          "description": "Niacinamide (Vitamin B3) is indicated to reduce the appearance of skin blemishes and congestion. ... This formulation can be used alongside acne treatments if desired for added visible skin benefits. Independent studies suggest Niacinamide is also an effective ingredient for brightening skin tone.",
+          "ingredients": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin."
         }
       ],
+      "cost": 0,
       "id": 1
+    },
+    {
+      "email": "ayoadehal@gmail.com",
+      "password": "lps",
+      "fname": "Hali",
+      "lname": "Ayoade",
+      "address": "e,fk,",
+      "cardNum": "de",
+      "expMonth": "e`",
+      "expYear": "d",
+      "cvv": "f",
+      "time": "2021-06-15T19:51:36.759Z",
+      "city": "lf,ke",
+      "province": ",fw",
+      "postalCode": "fh,wuk",
+      "orders": [
+        {
+          "name": "Foaming Facial Cleanser",
+          "id": 1,
+          "type": "cleanser",
+          "imageURL": [
+            "https://images-na.ssl-images-amazon.com/images/I/51%2ByNMwODML._SL1000_.jpg",
+            "https://images-na.ssl-images-amazon.com/images/I/61ZMnD5sUmL._SL1000_.jpg"
+          ],
+          "brand": "CeraVe",
+          "rating": 4.7,
+          "tags": [
+            "dry skin",
+            "oil skin",
+            "normal skin"
+          ],
+          "price": 13.48,
+          "components": [
+            {
+              "water-free": false,
+              "alcohol-free": false,
+              "oil-free": true,
+              "vegan": false,
+              "cruelty-free": false,
+              "approved": true
+            }
+          ],
+          "description": "CeraVe Foaming Facial Cleanser was developed with dermatologists to deeply cleanse, remove excess oil and refresh the skin without over-stripping it or leaving it feeling tight and dry. Featuring three essential ceramides, hyaluronic acid and niacinamide, this gel-based foaming cleanser is an effective yet non-irritating way to cleanse and care for your normal to oily skin.",
+          "ingredients": "Aqua / Water / Eau, Cocamidopropyl Hydroxysultaine, Glycerin, Sodium Lauroyl Sarcosinate, Peg-150 Pentaerythrityl Tetrastearate, Niacinamide, Peg-6 Caprylic/Capric Glycerides, Sodium Methyl Cocoyl Taurate, Propylene Glycol, Ceramide Np, Ceramide Ap, Ceramide Eop, Carbomer, Methylparaben, Sodium Chloride, Sodium Lauroyl Lactylate, Cholesterol, Disodium Edta, Propylparaben, Citric Acid, Tetrasodium Edta, Hydrolyzed Hyaluronic Acid, Phytosphingosine, Xanthan Gum."
+        },
+        {
+          "name": "Niacinamide 10% + Zinc 1%",
+          "id": 2,
+          "type": "serums",
+          "imageURL": [
+            "https://theordinary.deciem.com/dw/image/v2/BFKJ_PRD/on/demandware.static/-/Sites-deciem-master/default/dwa53d85c0/Images/products/The%20Ordinary/rdn-niacinamide-10pct-zinc-1pct-30ml.png?sw=800&sh=800&sm=fit",
+            "https://theordinary.deciem.com/on/demandware.static/-/Sites-deciem-master/default/dw3bf5ab23/Images/products/The%20Ordinary/Product%20Swatches/rdn-niacinamide-10pct-zinc-1pct-swatch.jpg"
+          ],
+          "brand": "The Ordinary",
+          "rating": 4.5,
+          "tags": [
+            "dry skin",
+            "oil skin",
+            "normal skin"
+          ],
+          "price": 5.9,
+          "components": [
+            {
+              "water-free": false,
+              "alcohol-free": true,
+              "oil-free": true,
+              "vegan": true,
+              "cruelty-free": true,
+              "approved": true
+            }
+          ],
+          "description": "Niacinamide (Vitamin B3) is indicated to reduce the appearance of skin blemishes and congestion. ... This formulation can be used alongside acne treatments if desired for added visible skin benefits. Independent studies suggest Niacinamide is also an effective ingredient for brightening skin tone.",
+          "ingredients": "Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin."
+        }
+      ],
+      "cost": 0,
+      "id": 2
     }
   ]
 }
