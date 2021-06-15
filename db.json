@@ -727,12 +727,30 @@
       "password": "lps",
       "fname": "Hali",
       "lname": "Ayoade",
+      "address": "100 Kiillarney Street",
+      "city": "Winnipeg",
+      "province": "MB",
+      "postalCode": "R3Y 0Z4",
       "orders": [
-        {
-         
-        }
+        {}
       ],
+      "cost": 0,
       "id": 1
+    },
+    {
+      "email": "ayoadehal@gmail.com",
+      "password": "lps",
+      "fname": "Hali",
+      "lname": "Ayoade",
+      "address": "e,fk,",
+      "city": "lf,ke",
+      "province": ",fw",
+      "postalCode": "fh,wuk",
+      "orders": [
+        {}
+      ],
+      "cost": 0,
+      "id": 2
     }
   ]
 }

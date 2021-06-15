@@ -59,7 +59,6 @@ const Header = (props) => {
               <a href="#">OLAY</a>
             </div>
           </div>
-          <a href="#">Regimen Builder</a>
           <Link style={{ textDecoration: 'none', color: 'white' }} to="/skin-care">Products</Link>
           <a href="#">Under $15</a>
         </div>

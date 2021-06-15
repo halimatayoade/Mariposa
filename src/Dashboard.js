@@ -8,6 +8,7 @@ const Dashboard = (props) => {
   const [city, setCity] = useState("");
   const [province, setProvince] = useState("");
   const [postalCode, setPostalCode] = useState("")
+
   return (
     <section>
       <div className="account">
@@ -19,7 +20,8 @@ const Dashboard = (props) => {
         <p>No orders have been placed</p>
 
         <h3>Account Details</h3>
-        <table>
+        { (props.user.address === null) ?
+          <table>
           <tr>
             <th>Name</th>
             <td>{props.user.fname}{" "}{props.user.lname}</td>
@@ -29,9 +31,34 @@ const Dashboard = (props) => {
             <td>{props.user.email}</td>
           </tr>
         </table>
-
-        <h3>Address Details</h3>
-        <button>Add a new address</button>
+        :
+          <table>
+          <tr>
+            <th>Name</th>
+            <td>{props.user.fname}{" "}{props.user.lname}</td>
+          </tr>
+          <tr>
+            <th>Email</th>
+            <td>{props.user.email}</td>
+          </tr>
+          <tr>
+            <th>Address</th>
+            <td>{props.user.address},{props.user.city},{props.user.province}</td>
+          </tr>
+          <tr>
+            <th>Postal Code</th>
+            <td>{props.user.postalCode}</td>
+          </tr>
+        </table>
+      }
+      {(props.user.address === undefined) ? 
+        <>
+          <h3>Address Details</h3>
+          <Link to="add-address"><button>Add a new address</button></Link>
+        </>
+        :
+        ""
+      }
       </div>
     </section>
   )

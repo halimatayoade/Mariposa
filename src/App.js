@@ -10,6 +10,7 @@ import { Container } from '@material-ui/core';
 import { Switch, Route, useHistory } from "react-router-dom";
 import Favourites from './Favourites.js';
 import Dashboard from "./Dashboard";
+import Address from './Address';
 import Checkout from "./Checkout";
 
 const App = () => {
@@ -120,7 +121,10 @@ const App = () => {
           <Dashboard user={user} logout={logout} ></Dashboard>
         </Route>
         <Route path="/checkout">
-          <Checkout cost={cost} user={user} logout={logout} ></Checkout>
+          <Checkout addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Checkout>
+        </Route>
+        <Route path="/add-address">
+          <Address cost={cost} user={user} logout={logout} currentUser={currentUser}></Address>
         </Route>
     </Switch>
     </>
