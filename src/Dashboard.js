@@ -24,7 +24,9 @@ const Dashboard = (props) => {
         </div>
 
         <h3>Order History</h3>
+      
         <div className="orders">
+        {Date.parse(props.user.time)}
         {orders}
         </div>
         <h3>Account Details</h3>

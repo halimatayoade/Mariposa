@@ -124,3 +124,7 @@ label {
 .orders .item p{
   font-size: 10px;
 }
+
+.orders {
+  border: black solid 1px;
+}
