@@ -1,6 +1,7 @@
 import React from 'react';
 import CartItem from './CartItem'
 import './cart.css';
+import { Link, useHistory } from 'react-router-dom';
 const Cart = (props) => {
   let prices = parseFloat(props.cart.reduce((acc, ci) => acc + ci.price, 0).toFixed(2));
   let delivery;
@@ -26,9 +27,9 @@ const Cart = (props) => {
         <div className="prices">
           <div className="orderValue"><div id="text">Order Value:</div><div id="value">${(prices).toFixed(2)}</div></div>
           <div className="delivery"><div id="text">Delivery:</div><div id="value">{(delivery == 0) ? 'FREE' : `$${(delivery).toFixed(2)}`}</div></div>
-          <div className="total"><div id="text">Total:</div><div id="value"> ${(prices + delivery).toFixed(2)}</div></div>
-        <div className="total">{(prices < 50) ? `${(50 - prices).toFixed(2)} till free shipping` : false}</div>
-          <button class="checkout">Checkout</button>
+          <div className="total"><div id="text">Total:</div><div id="value">{(prices === 0) ? `$${prices.toFixed(2)}` :  `${(prices + delivery).toFixed(2)}`}</div></div>
+          <div className="total">${(prices < 50) ? `${(50 - prices).toFixed(2)} till free shipping` : false}</div>
+          <Link to="/checkout"><button class="checkout">Checkout</button></Link>
         </div>
       </div>
     </div>

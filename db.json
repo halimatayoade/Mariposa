@@ -724,20 +724,15 @@
   "users": [
     {
       "email": "ayoadehal@gmail.com",
-      "password": "123",
-      "id": 1
-    },
-    {
-      "email": "halimatayoade@gmail.com",
-      "password": "lps123",
-      "id": 2
-    },
-    {
-      "email": "ayoadehal@gmail.com",
       "password": "lps",
       "fname": "Hali",
       "lname": "Ayoade",
-      "id": 3
+      "orders": [
+        {
+         
+        }
+      ],
+      "id": 1
     }
   ]
 }
