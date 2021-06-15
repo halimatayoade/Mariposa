@@ -35,12 +35,12 @@ const Header = (props) => {
           <>
           <Button onClick={props.logout} color="inherit"><Link style={{ textDecoration: 'none', color: 'black' }}to="/">Logout</Link></Button>
           <Link style={{ textDecoration: 'none', color: 'black' }} to="/my-account"><span class="material-icons-outlined">person_outline</span></Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
+          <Link style={{ textDecoration: 'none', color: 'black' }} to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
           </>
           :
           <Button component={Link} to="/login" color="inherit">Login</Button>
         }
-          <Link style={{ textDecoration: 'none', color: 'black' }} to="/favourites"><span id="heart" class="material-icons-outlined">favorite</span></Link>
-          <Link style={{ textDecoration: 'none', color: 'black' }} to="/cart"><span class="material-icons-outlined">shopping_bag</span></Link>
         </div>
       </header>
       <div class="navbar">
