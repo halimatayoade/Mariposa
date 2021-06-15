@@ -38,6 +38,10 @@ const App = () => {
     fetchData();
   }, []);
 
+  const checkout = cart => {
+    setCart([])
+  }
+
   const balance = cost => {
     setCost(cost)
   }
@@ -118,10 +122,10 @@ const App = () => {
           <Login currentUser={currentUser}></Login>
         </Route>
         <Route path="/my-account">
-          <Dashboard user={user} logout={logout} ></Dashboard>
+          <Dashboard checkout={checkout} addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Dashboard>
         </Route>
         <Route path="/checkout">
-          <Checkout addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Checkout>
+          <Checkout checkout={checkout} addToCart={addToCart} addToFavorites={addToFavorites}  cart={cart} favourites={favourites} cost={cost} user={user} logout={logout} currentUser={currentUser}></Checkout>
         </Route>
         <Route path="/add-address">
           <Address cost={cost} user={user} logout={logout} currentUser={currentUser}></Address>

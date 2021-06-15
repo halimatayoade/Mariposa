@@ -1,13 +1,20 @@
 import React, { useState } from 'react';
 import './dashboard.css';
+import './cart.css';
 import { Button, TextField, Link as MaterialLink } from '@material-ui/core';
 import { Link, useHistory } from 'react-router-dom';
+import CheckoutItem from './CheckoutItem'
 const Dashboard = (props) => {
   const history = useHistory();
-  const [address, setAddress] = useState("");
-  const [city, setCity] = useState("");
-  const [province, setProvince] = useState("");
-  const [postalCode, setPostalCode] = useState("")
+  let orders;
+  if(props.user.orders === undefined) {
+    orders = <p>No orders have been placed</p>
+  } else {
+     orders =  props.user.orders
+        .map((product) => (
+          <CheckoutItem key={product.id} product={product} addToCart={props.addToCart} favourites={props.favourites} addToFavorites={props.addToFavorites} />
+        ))
+  }
 
   return (
     <section>
@@ -17,8 +24,9 @@ const Dashboard = (props) => {
         </div>
 
         <h3>Order History</h3>
-        <p>No orders have been placed</p>
-
+        <div className="orders">
+        {orders}
+        </div>
         <h3>Account Details</h3>
         { (props.user.address === null) ?
           <table>
