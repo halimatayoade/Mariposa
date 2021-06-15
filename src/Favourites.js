@@ -4,7 +4,7 @@ import './cart.css';
 const Favourites = (props) => {
   return (
     <div className="shoppingCart">
-      <h1>Shopping Bag</h1>
+      <h1>Favourites</h1>
       <div className="title">
         <div className="items">
         <h2>There are {props.favourites.length} items in your favourites</h2>
